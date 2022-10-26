@@ -13,26 +13,26 @@
 </head>
 
 <body>
-    <header>
-        <h1>Jose L Fuentes Dev</h1>
-        <button>
+    <header class="home">
+        <h1><a href="/index.html">Jose L Fuentes Dev</a></h1>
+        <button class="button">
             <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
         </button>
-        <nav class="nav">
+        <nav class="nav ">
             <ul class="menu">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="/contact.html">Contact</a></li>
+                <li><a href="#footer">Skills</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section class="banner" id="banner">
             <div class="h2_contact">
                 <h2>
                     <span>I'm a</span>
@@ -47,11 +47,15 @@
             <img src="/assets/Me.png" alt="">
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <h3>About</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at velit est tempora fuga iusto nulla officiis, ex deleniti vero deserunt reprehenderit porro fugiat expedita, placeat amet quo eum! Hic.</p>
+            <p>My name is Jose L Fuentes I'm a Front End Engineer based in Valencia 🥘. I describe myself as a passionate developer who loves coding ❤️.</p>
+            <br>
+            <p>Aside from my job, I like to create and contribute to open source projects. That helps me to learn a ton of new stuff, grow as a developer and support other open source projects.</p>
+            <br>
+            <p>In my free time you can find me lifting weigths in Crossfit 🏋️‍♂️ or at the mountains ⛰️</p>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <h3>Projects</h3>
             <div class="cards_container">
                 <div class="card">
@@ -80,7 +84,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <h3>Skills</h3>
             <div class="logos">
                 <img src="/assets/html5-svgrepo-com.svg" alt="">
@@ -92,9 +96,9 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         Jose L Fuentes - 2022
     </footer>
 </body>
-
+<script src="/app.js"></script>
 </html>

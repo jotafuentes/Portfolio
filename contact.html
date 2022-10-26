@@ -11,22 +11,44 @@
 </head>
 <body>
     <header>
-        <h1>Jose L Fuentes Dev</h1>
-        <button>
+        <h1><a href="/index.html">Jose L Fuentes Dev</a></h1>
+        <button class="button">
             <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                 viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                     d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
         </button>
-        <nav class="nav">
+        <nav class="nav ">
             <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">About</a></li>
+                <li><a href="/index.html">Projects</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+    <section class="form">
+        <h1>Contact me</h1>
+        <form action="#" class="form__box">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="Write your name">
+            <br>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" required placeholder="Write your surname">
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required placeholder="email@email.com">
+            <br>
+            <label for="text">Write your message here</label>
+            <textarea name="text" id="text" cols="30" rows="7"></textarea>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </section>
+    <footer id="footer">
+        Jose L Fuentes - 2022
+    </footer>
 </body>
+<script src="/contact_nav.js"></script>
 </html>
